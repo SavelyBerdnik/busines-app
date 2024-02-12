@@ -1,0 +1,99 @@
+.AddSpecification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 26vw;
+    width: 50%;
+}
+
+.AddSpecification span:active {
+    color:blue;
+    text-decoration: underline;
+}
+
+.AddForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.AddElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.AddForm input, 
+.AddForm button,
+.AddForm select,
+.AddForm textarea {
+    align-self: center;
+    width: 60%;
+    padding: 15px 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    background: rgb(143, 26, 42);
+    opacity: 0.8;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+}
+
+.AddElement input[type=number] {
+    width: 6vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-right: 1vw;
+}
+
+::-webkit-input-placeholder{
+    color:#fff;
+}
+
+.AddForm button {
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    background: rgb(255, 153, 51);
+}
+
+.AddButton {
+    width: 50%;
+    border-radius: 0px;
+}
+
+.AddForm button:hover {
+    transform: scale(1.1);
+}
+
+.AddForm button:disabled,
+.AddForm input:disabled{
+    opacity: 0.3;
+    background: rgb(255, 153, 51);
+}
+
+.semifinish, .operation {
+    border: 2px solid black;
+    margin-bottom: 2%;
+    padding: 2% 0;
+}
+
+.require {
+    font-weight: 600;
+    margin: 20px 0;
+    color: red;
+}
+
+.check {
+    color: blue;
+    text-decoration: underline;
+}
+
+.good {
+    font-weight: 600;
+    margin: 20px 0;
+    color: green;
+}

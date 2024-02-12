@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(233, 230, 177);
+    padding: 50px 100px;
+}
+
+.navigation {
+    padding: 2% 10%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation > a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.navigation > a:hover {
+    color: #410ee9;
+    text-decoration: underline;
+}
+
+.active {
+    color: #0f7dc6;
+    cursor: default;
+}
+
+.logoutButton {
+    width: 10%;
+    padding: 6px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    opacity: 0.8;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    background: rgb(244, 37, 0);
+}

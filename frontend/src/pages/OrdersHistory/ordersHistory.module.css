@@ -1,0 +1,22 @@
+.OrdersHistory {
+    margin: 5px 29vw;
+}
+
+.historyTable {
+    width: 40vw;
+    border-collapse: collapse;
+}
+
+.historyTable td {
+    border: 1px solid grey;
+}
+
+.historyTable tbody > tr:hover {
+    background-color: rgb(255, 153, 51);
+}
+
+.require {
+    font-weight: 600;
+    margin: 20px 0;
+    color: red;
+}

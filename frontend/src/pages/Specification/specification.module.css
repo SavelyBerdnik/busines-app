@@ -1,0 +1,49 @@
+.Goods {
+    margin: 5px 29vw;
+}
+
+.goodsTable {
+    width: 40vw;
+    border-collapse: collapse;
+}
+
+.goodsTable td {
+    border: 1px solid grey;
+}
+
+.goodsTable tbody > tr:hover {
+    background-color: rgb(255, 153, 51);
+}
+
+.GoodSpecification {
+    margin-left: 2vw;
+    text-align: start;
+}
+
+.GoodSpecification h2{
+    text-align: center;
+}
+
+.GoodSpecification button {
+    align-self: center;
+    width: 20vw;
+    padding: 15px 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    opacity: 0.8;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    background: rgb(255, 153, 51);
+}
+
+.require {
+    font-weight: 600;
+    margin: 20px 0;
+    color: red;
+}

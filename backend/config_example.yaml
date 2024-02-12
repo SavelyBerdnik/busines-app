@@ -1,0 +1,10 @@
+httpServer:
+  port: 8080
+
+repository:
+  dsn: "postgresql://localhost:5432/db_name?user=postgres&password=password"
+
+auth:
+  signing_key: "random_hash_here"
+  tokenTTL: 48 # in hours
+  RefreshTTL: 30 # in days

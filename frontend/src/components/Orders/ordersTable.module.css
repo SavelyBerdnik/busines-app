@@ -1,0 +1,32 @@
+.ordersTable {
+    border-collapse: collapse;
+}
+
+.ordersTable td {
+    border: 1px solid grey;
+}
+
+.ordersTable tbody > tr:hover {
+    background-color: rgb(255, 153, 51);
+}
+
+.ordersSelect {
+    align-self: center;
+    width: 60%;
+    padding: 15px 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    background: rgb(143, 26, 42);
+    opacity: 0.8;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+}
+
+.check {
+    background: rgb(255, 153, 51);
+    color: #fff;
+    transform: scale(1.01);
+}

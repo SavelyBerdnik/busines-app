@@ -1,0 +1,11 @@
+.vscode
+.idea
+
+config.yaml
+
+gost-doc
+*.exe
+
+docs
+dist
+__debug_bin*
